@@ -1,0 +1,56 @@
+/* Write your code here. */
+.app-container {
+  background-image: linear-gradient(to right, #1d976c, #93f9b9);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 25px;
+}
+
+.card-container {
+  display: flex;
+  align-items: center;
+  font-family: 'Roboto';
+}
+
+.letters-cal {
+  width: 50%;
+}
+
+.image {
+  width: 50%;
+}
+
+.heading,
+.para {
+  color: #ffffff;
+}
+
+.input-phrase {
+  background-color: transparent;
+  color: #ffffff;
+  width: 80%;
+  outline: none;
+  border-radius: 5px;
+  border: #fff solid 1px;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.para-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  height: 50px;
+  width: 170px;
+  margin-top: 15px;
+  border-radius: 8px;
+}
+
+.count {
+  color: #219a6f;
+  padding: 10px;
+  font-weight: bold;
+}
